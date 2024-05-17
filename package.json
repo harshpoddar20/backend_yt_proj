@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "a backend at full stack project-youtube",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "harsh poddar",
+  "license": "ISC"
+}
