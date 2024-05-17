@@ -6,7 +6,19 @@ dotenv.config({
 })
 
 connectDB()
+.then(()=>{
+     app.on("errror", (error) => {
+        console.log("ERRR: ", error);
+        throw error
+    }) 
+    app.listen(process.env.PORT || 80000)
+    console.log(`Server is runnin at port :${process.env.PORT}`);
+   
 
+})
+.catch((err)=>{
+    console.log("MONGO db connection failed !!!",err);
+})
 
 
 //it wil be done in anoter file db and called ere
