@@ -50,4 +50,3 @@ const vedioSchema= new Schema({
 vedioSchema.plugin(mongooseAggregatePaginate)
 
 export const Vedio=mongoose.model("Vedio",vedioSchema)
- 
